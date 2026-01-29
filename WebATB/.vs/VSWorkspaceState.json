@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\WebATB",
+    "\\WebATB\\Controllers",
+    "\\WebATB\\Models",
+    "\\WebATB\\Models\\Users",
+    "\\WebATB\\Views",
+    "\\WebATB\\Views\\Main",
+    "\\WebATB\\Views\\Shared",
+    "\\WebATB\\wwwroot",
+    "\\WebATB\\wwwroot\\images"
+  ],
+  "SelectedNode": "\\WebATB\\Views\\Main\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

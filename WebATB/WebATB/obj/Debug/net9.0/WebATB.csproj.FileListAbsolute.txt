@@ -17,7 +17,6 @@ C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\scopedcss\bundle\WebATB.styles.css
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\scopedcss\projectbundle\WebATB.bundle.scp.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\compressed\e0ls6ifky9-b9sayid5wm.gz
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\compressed\7hn41tdl35-61n19gt1b8.gz
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\compressed\vpyg79w55s-xtxxf3hu2r.gz
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\compressed\5r2qk1gv6l-bqjiyaj88i.gz
@@ -91,3 +90,5 @@ C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\WebATB.pdb
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\WebATB.genruntimeconfig.cache
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\ref\WebATB.dll
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\WebATB.sourcelink.json
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\obj\Debug\net9.0\compressed\e0ls6ifky9-i6h2hhs3m8.gz
