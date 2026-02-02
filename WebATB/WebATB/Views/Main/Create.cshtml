@@ -7,7 +7,7 @@
 
 <h1 class="text-center">Додати користувача</h1>
 
-<form asp-action="Create">
+<form asp-action="Create" class="col-md-6 offset-md-3" enctype="multipart/form-data">
     <div class="mb-3">
         <label asp-for="Name" class="form-label"></label>
         <input asp-for="Name" class="form-control">
@@ -34,9 +34,9 @@
         <span asp-validation-for="Password" class="text-danger"></span>
     </div>
     <div class="form-group">
-        <label asp-for="Photo"></label>
-        <input asp-for="Photo" class="form-control-file">
-        <span asp-validation-for="Photo" class="text-danger"></span>
+        <label asp-for="ImageUrl"></label>
+        <input asp-for="ImageUrl" class="form-control-file">
+        <span asp-validation-for="ImageUrl" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Створити</button>

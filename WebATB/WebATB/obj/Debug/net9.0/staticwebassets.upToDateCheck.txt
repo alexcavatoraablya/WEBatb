@@ -1,3 +1,5 @@
+wwwroot\c0addb4e-d11a-4fa3-bf81-c9c33da30a68.jpg
+wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\blank-pfp.png
 wwwroot\images\long.jpg
@@ -59,11 +61,10 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\site.css
-wwwroot\lib\jquery\dist\jquery.slim.min.js
-wwwroot\lib\jquery\dist\jquery.slim.js
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\css\site.css
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\favicon.ico
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\js\site.js

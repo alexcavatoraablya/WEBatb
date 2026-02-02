@@ -6,40 +6,45 @@ namespace WebATB.Controllers;
 
 public class MainController : Controller
 {
-    public IActionResult Index()
+    static List<UserItemModel> list =
+    new()
     {
-        List<UserItemModel> model = new List<UserItemModel>();
-        model.Add(new UserItemModel
+        new ()
         {
             Id = 1,
             Name = "Вікторович Віктор Йосипович",
             Phone = "098221546781",
             Image = "blank-pfp.png"
-        });
+        },
 
-        model.Add(new UserItemModel
+        new ()
         {
             Id = 2,
             Name = "Рижий Марко Йосипович",
             Phone = "098564783209",
             Image = "long.jpg"
-        });
+        },
 
-        model.Add(new UserItemModel
+        new ()
         {
             Id = 3,
             Name = "Галоша Іванна Ігорівна",
             Phone = "098264284327",
             Image = "opossum.jpg"
-        });
-
-        return View(model);
+        }
+    };
+    public IActionResult Index()
+    {
+        return View(list);
     }
     [HttpGet] //метод для відображення сторінки
     public IActionResult Create()
     {
+
         return View();
+       
     }
+
     [HttpPost] //метод для відображення сторінки
     public IActionResult Create(UserCreateModel model)
     {
@@ -48,7 +53,28 @@ public class MainController : Controller
             return View(model);
         }
         //якщо модель валідна то дані буде зберігати у список і переходимо на іншу сторінку
+        UserItemModel item = new UserItemModel
+        {
+            Id = list.Count + 1,
+            Name = model.LastName + " "
+                + model.Name + " ",
+            Phone = model.Phone,
+            //Image = model.ImageUrl
+        };
+
+        if (model.ImageUrl != null)
+        {
+            var dir = Directory.GetCurrentDirectory();
+            var wwwroot = "wwwroot";
+            var fileName = Guid.NewGuid().ToString()+".jpg";
+            var savePath = Path.Combine(dir, wwwroot, "images", fileName);
+            using (var stream = new FileStream(savePath, FileMode.Create))
+            {
+                model.ImageUrl.CopyTo(stream);
+            }
+            item.Image = fileName;
+        }
+        list.Add(item);
         return RedirectToAction(nameof(Index));
     }
-    
 }
