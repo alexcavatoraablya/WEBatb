@@ -42,7 +42,7 @@ public class MainController : Controller
     {
 
         return View();
-       
+
     }
 
     [HttpPost] //метод для відображення сторінки
@@ -66,7 +66,7 @@ public class MainController : Controller
         {
             var dir = Directory.GetCurrentDirectory();
             var wwwroot = "wwwroot";
-            var fileName = Guid.NewGuid().ToString()+".jpg";
+            var fileName = Guid.NewGuid().ToString() + ".jpg";
             var savePath = Path.Combine(dir, wwwroot, "images", fileName);
             using (var stream = new FileStream(savePath, FileMode.Create))
             {
@@ -75,6 +75,23 @@ public class MainController : Controller
             item.Image = fileName;
         }
         list.Add(item);
+        return RedirectToAction(nameof(Index));
+    }
+
+    [HttpGet]
+    public IActionResult Delete(int id)
+    {
+        //шукаю елемента в списку по id 
+        var item = list.SingleOrDefault(x => x.Id == id);
+        return View(item);
+    }
+
+    [HttpPost]
+    public IActionResult Delete(UserItemModel user)
+    {
+        //шукаю елемента в списку по id 
+        var item = list.SingleOrDefault(x => x.Id == user.Id);
+        list.Remove(item);
         return RedirectToAction(nameof(Index));
     }
 }
