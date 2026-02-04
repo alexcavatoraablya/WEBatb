@@ -82,7 +82,7 @@ public class MainController : Controller
     public IActionResult Delete(int id)
     {
         //шукаю елемента в списку по id 
-        var item = list.SingleOrDefault(x => x.Id == id);
+        var item = list.FirstOrDefault(x => x.Id == id);
         return View(item);
     }
 
@@ -90,7 +90,7 @@ public class MainController : Controller
     public IActionResult Delete(UserItemModel user)
     {
         //шукаю елемента в списку по id 
-        var item = list.SingleOrDefault(x => x.Id == user.Id);
+        var item = list.FirstOrDefault(x => x.Id == user.Id);
         list.Remove(item);
         return RedirectToAction(nameof(Index));
     }
