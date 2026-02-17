@@ -14,6 +14,6 @@ public class CategoryEntity
     public string Name { get; set; } = null!;
     [Required, StringLength(250)]
     public string Slug { get; set; } = null!;
-    [StringLength(100)]
+    [StringLength(255)]
     public string? Image { get; set; } = string.Empty;
 }

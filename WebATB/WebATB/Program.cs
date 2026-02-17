@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using WebATB.Data;
+using WebATB.Data.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,5 +29,42 @@ app.MapControllerRoute(
     pattern: "{controller=Main}/{action=Index}/{id?}")
     .WithStaticAssets();
 
+//Seed Categories items
+//додати дані щоб були в таблиці tblCategories
+//нам потрібно отримати MyContextATB - клас який є налаштований
+using var scope = app.Services.CreateScope();
+var myDbContext = scope.ServiceProvider.GetService<MyContextATB>(); //отримав context DataBase
+
+if(myDbContext != null) //якщо ми отримали контекст і він не пустий
+{
+    if (!myDbContext.Categories.Any()) //якщо в БД відсутні записи
+    {
+        List<CategoryEntity> items = new();
+        items.Add(
+        new()
+        {
+            Name="Морозиво",
+            Image= "https://src.zakaz.atbmarket.com/cache/category/334-morozivo.webp",
+            Slug="morozivo",
+        });
+        items.Add(
+        new()
+        {
+            Name = "Заморожені продукти",
+            Image = "https://src.zakaz.atbmarket.com/cache/category/%D0%97%D0%B0%D0%BC%D0%BE%D1%80%D0%BE%D0%B6%D0%B5%D0%BD%D1%96%20%D0%B2%D0%B8%D1%80%D0%BE%D0%B1%D0%B8.webp",
+            Slug = "zamorozheni-produkti",
+        });
+        items.Add(
+        new()
+        {
+            Name = "Напої безалкогольні",
+            Image = "https://src.zakaz.atbmarket.com/cache/category/%D0%91%D0%B5%D0%B7%D0%B0%D0%BB%D0%BA%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D1%96%20%D0%BD%D0%B0%D0%BF%D0%BE%D1%96%CC%88.webp",
+            Slug = "napoi-bezalkogol-ni",
+        });
+
+        myDbContext.Categories.AddRange(items);
+        myDbContext.SaveChanges();
+    }
+}
 
 app.Run();
