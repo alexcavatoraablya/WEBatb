@@ -48,4 +48,24 @@ public class CategoriesController(MyContextATB myContextATB) : Controller
 
         return View(model);
     }
+
+    [HttpPost]
+    public IActionResult Delete(int id)
+    {
+        var category = myContextATB.Categories.Find(id); //Знаходимо категорію за id
+        if (category != null)
+        {
+            var dir = Directory.GetCurrentDirectory();
+            var wwwroot = "wwwroot"; //путь до папки
+            string fileName = category.Image;
+            var savePath = Path.Combine(dir, wwwroot, "images", fileName);
+            if (System.IO.File.Exists(savePath) && fileName != "default.jpg")
+            {
+                System.IO.File.Delete(savePath); //Видаляємо файл з диску
+            }
+            myContextATB.Categories.Remove(category); //Робимо SQL запит DELETE
+            myContextATB.SaveChanges(); //Зберігаємо зміни в БД - Викную SQL запит COMMIT
+        }
+        return RedirectToAction(nameof(Index)); //повертаємо запит
+    }
 }

@@ -25,6 +25,7 @@ wwwroot\images\blank-pfp.png
 wwwroot\images\d8ab5788-32db-4390-af7b-feb86b8a01c4.jpg
 wwwroot\images\dbcf363f-c397-487c-ac93-6fe4f35de154.jpg
 wwwroot\images\ec528d78-ce6e-43bd-9c3b-0439b6d891cb.jpg
+wwwroot\images\f5044392-62fa-478f-8871-cbd114e63a63.jpg
 wwwroot\images\f80b6f00-5a3d-4527-82b8-5724bb9ad415.jpg
 wwwroot\images\long.jpg
 wwwroot\images\opossum.jpg
