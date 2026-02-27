@@ -4,8 +4,10 @@ using WebATB.Data.Entities;
 using WebATB.Models.Categories;
 
 namespace WebATB.Controllers;
-//робимо Injection для роботи з БД, але покеи що просто виводимо сторінку
-public class CategoriesController(MyContextATB myContextATB) : Controller
+// робимо Injection для роботи з БД,
+// але поки що просто виводимо сторінку
+public class CategoriesController(MyContextATB myContextATB)
+    : Controller
 {
     public IActionResult Index()
     {
@@ -20,7 +22,7 @@ public class CategoriesController(MyContextATB myContextATB) : Controller
     [HttpPost]
     public IActionResult Create(CategoriesCreateViewModel model)
     {
-        if (ModelState.IsValid)
+        if (ModelState.IsValid) //Зберігаємо категорію в БД, якщо модель валідна
         {
             string fileName = "default.jpg";
             //Як зберегти фото
@@ -35,19 +37,73 @@ public class CategoriesController(MyContextATB myContextATB) : Controller
                     model.FileImage.CopyTo(stream);
                 }
             }
-            var categoty = new CategoryEntity
+            //Заповнюю таблицю категорій в БД
+            var category = new CategoryEntity
             {
                 Name = model.CategoryName,
                 Slug = model.Slug,
                 Image = fileName
             };
-            myContextATB.Categories.Add(categoty);
-            myContextATB.SaveChanges();
+            myContextATB.Categories.Add(category); //Роблю SQL запит INSERT
+            myContextATB.SaveChanges(); //Зберігаю зміни в БД - Викную SQL запит COMMIT
             return RedirectToAction(nameof(Index));
         }
 
+        return View(model); // Якщо модель не валідна, повертаємо її назад на форму для виправлення помилок
+    }
+
+
+    [HttpGet] //id - це параметр, який ми передаємо в URL, наприклад: /Categories/Edit/5
+    public IActionResult Edit(int id)
+    {
+        var cat = myContextATB.Categories.FirstOrDefault(c => c.Id == id);
+        if (cat == null)
+        {
+            return NotFound(); //Якщо категорія не знайдена, повертаємо 404 помилку
+        }
+        //створення нового елемента в списку
+        var model = new CategoryEditViewModel
+        {
+            Id = cat.Id,
+            CategoryName = cat.Name,
+            Slug = cat.Slug,
+            OldImage = cat.Image
+        };
+        //повертає дію
         return View(model);
     }
+
+    [HttpPost]
+    public IActionResult Edit(CategoryEditViewModel model)
+    {
+        var category = myContextATB.Categories.Find(model.Id); //Знаходимо категорію за id
+        if (ModelState.IsValid) //Зберігаємо категорію в БД, якщо модель валідна
+        {
+            string fileName = "default.jpg";
+            //Як зберегти фото
+            if (model.FileImage != null)
+            {
+                var dir = Directory.GetCurrentDirectory();
+                var wwwroot = "wwwroot";
+                fileName = Guid.NewGuid().ToString() + ".jpg";
+                var savePath = Path.Combine(dir, wwwroot, "images", fileName);
+                using (var stream = new FileStream(savePath, FileMode.Create))
+                {
+                    model.FileImage.CopyTo(stream);
+                }
+            }
+            //Заповнюю таблицю категорій в БД
+            category.Name = model.CategoryName;
+            category.Image = fileName;
+            category.Slug = model.Slug;
+
+            myContextATB.SaveChanges(); //Зберігаю зміни в БД - Викную SQL запит COMMIT
+            return RedirectToAction(nameof(Index));
+        }
+
+        return View(model); // Якщо модель не валідна, повертаємо її назад на форму для виправлення помилок
+    }
+
 
     [HttpPost]
     public IActionResult Delete(int id)
@@ -56,7 +112,7 @@ public class CategoriesController(MyContextATB myContextATB) : Controller
         if (category != null)
         {
             var dir = Directory.GetCurrentDirectory();
-            var wwwroot = "wwwroot"; //путь до папки
+            var wwwroot = "wwwroot";
             string fileName = category.Image;
             var savePath = Path.Combine(dir, wwwroot, "images", fileName);
             if (System.IO.File.Exists(savePath) && fileName != "default.jpg")
@@ -66,6 +122,6 @@ public class CategoriesController(MyContextATB myContextATB) : Controller
             myContextATB.Categories.Remove(category); //Робимо SQL запит DELETE
             myContextATB.SaveChanges(); //Зберігаємо зміни в БД - Викную SQL запит COMMIT
         }
-        return RedirectToAction(nameof(Index)); //повертаємо запит
+        return RedirectToAction(nameof(Index));
     }
 }

@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|solutionrelative:webatb\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|c:\\users\\coder\\desktop\\c#\\1 lesson begin asp.net\\webatb\\webatb\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|solutionrelative:webatb\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|c:\\users\\coder\\desktop\\c#\\1 lesson begin asp.net\\webatb\\webatb\\models\\categories\\categoryeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|solutionrelative:webatb\\models\\categories\\categoryeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|c:\\users\\coder\\desktop\\c#\\1 lesson begin asp.net\\webatb\\webatb\\views\\categories\\deletemodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|solutionrelative:webatb\\views\\categories\\deletemodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|c:\\users\\coder\\desktop\\c#\\1 lesson begin asp.net\\webatb\\webatb\\models\\categories\\categoriescreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|solutionrelative:webatb\\models\\categories\\categoriescreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|c:\\users\\coder\\desktop\\c#\\1 lesson begin asp.net\\webatb\\webatb\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|solutionrelative:webatb\\views\\categories\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|c:\\users\\coder\\desktop\\c#\\1 lesson begin asp.net\\webatb\\webatb\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|solutionrelative:webatb\\views\\categories\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|c:\\users\\coder\\desktop\\c#\\1 lesson begin asp.net\\webatb\\webatb\\views\\shared\\mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,14 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|c:\\users\\coder\\desktop\\c#\\1 lesson begin asp.net\\webatb\\webatb\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|solutionrelative:webatb\\controllers\\maincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|c:\\users\\coder\\desktop\\c#\\1 lesson begin asp.net\\webatb\\webatb\\models\\categories\\categoriescreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|solutionrelative:webatb\\models\\categories\\categoriescreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|c:\\users\\coder\\desktop\\c#\\1 lesson begin asp.net\\webatb\\webatb\\models\\categories\\categoriescreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|solutionrelative:webatb\\models\\categories\\categoriescreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E455BEA0-CEAD-46C8-8F0E-DC4C3B2055C3}|WebATB\\WebATB.csproj|c:\\users\\coder\\desktop\\c#\\1 lesson begin asp.net\\webatb\\webatb\\models\\users\\useritemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,45 +46,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Views\\Shared\\MainLayout.cshtml",
-              "RelativeDocumentMoniker": "WebATB\\Views\\Shared\\MainLayout.cshtml",
-              "ToolTip": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Views\\Shared\\MainLayout.cshtml",
-              "RelativeToolTip": "WebATB\\Views\\Shared\\MainLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-25T09:02:53.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DeleteModal.cshtml",
-              "DocumentMoniker": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Views\\Categories\\DeleteModal.cshtml",
-              "RelativeDocumentMoniker": "WebATB\\Views\\Categories\\DeleteModal.cshtml",
-              "ToolTip": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Views\\Categories\\DeleteModal.cshtml",
-              "RelativeToolTip": "WebATB\\Views\\Categories\\DeleteModal.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-25T08:49:28.938Z",
+              "Title": "CategoriesCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Models\\Categories\\CategoriesCreateViewModel.cs",
+              "RelativeDocumentMoniker": "WebATB\\Models\\Categories\\CategoriesCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Models\\Categories\\CategoriesCreateViewModel.cs",
+              "RelativeToolTip": "WebATB\\Models\\Categories\\CategoriesCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T12:52:37.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Views\\Categories\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebATB\\Views\\Categories\\Index.cshtml",
-              "ToolTip": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Views\\Categories\\Index.cshtml",
-              "RelativeToolTip": "WebATB\\Views\\Categories\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-24T08:08:25.049Z",
+              "Title": "CategoryEditViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Models\\Categories\\CategoryEditViewModel.cs",
+              "RelativeDocumentMoniker": "WebATB\\Models\\Categories\\CategoryEditViewModel.cs",
+              "ToolTip": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Models\\Categories\\CategoryEditViewModel.cs",
+              "RelativeToolTip": "WebATB\\Models\\Categories\\CategoryEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T12:02:39.183Z",
               "EditorCaption": ""
             },
             {
@@ -95,14 +82,52 @@
               "RelativeDocumentMoniker": "WebATB\\Controllers\\CategoriesController.cs",
               "ToolTip": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "WebATB\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwDoAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwEcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-18T10:01:52.509Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Views\\Categories\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebATB\\Views\\Categories\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Views\\Categories\\Edit.cshtml",
+              "RelativeToolTip": "WebATB\\Views\\Categories\\Edit.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T12:10:44.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebATB\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "WebATB\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-24T08:08:25.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Views\\Shared\\MainLayout.cshtml",
+              "RelativeDocumentMoniker": "WebATB\\Views\\Shared\\MainLayout.cshtml",
+              "ToolTip": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Views\\Shared\\MainLayout.cshtml",
+              "RelativeToolTip": "WebATB\\Views\\Shared\\MainLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T09:02:53.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MainController.cs",
               "DocumentMoniker": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Controllers\\MainController.cs",
               "RelativeDocumentMoniker": "WebATB\\Controllers\\MainController.cs",
@@ -110,32 +135,7 @@
               "RelativeToolTip": "WebATB\\Controllers\\MainController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-24T07:55:22.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoriesCreateViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Models\\Categories\\CategoriesCreateViewModel.cs",
-              "RelativeDocumentMoniker": "WebATB\\Models\\Categories\\CategoriesCreateViewModel.cs",
-              "ToolTip": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Models\\Categories\\CategoriesCreateViewModel.cs",
-              "RelativeToolTip": "WebATB\\Models\\Categories\\CategoriesCreateViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T09:58:03.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoriesCreateModel.cs",
-              "DocumentMoniker": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Models\\Categories\\CategoriesCreateModel.cs",
-              "RelativeDocumentMoniker": "WebATB\\Models\\Categories\\CategoriesCreateModel.cs",
-              "ToolTip": "C:\\Users\\CODER\\Desktop\\c#\\1 lesson Begin ASP.NET\\WebATB\\WebATB\\Models\\Categories\\CategoriesCreateModel.cs",
-              "RelativeToolTip": "WebATB\\Models\\Categories\\CategoriesCreateModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-18T09:53:36.911Z"
+              "WhenOpened": "2026-02-24T07:55:22.447Z"
             },
             {
               "$type": "Document",
