@@ -13,6 +13,5 @@ public class CategoryEditViewModel
     public string Slug { get; set; } = null!;
     public string ? OldImage { get; set; }
     [Display(Name = "Вкажіть фото")]
-    [Required(ErrorMessage = "Вкажіть фото")]
     public IFormFile? FileImage { get; set; }
 }

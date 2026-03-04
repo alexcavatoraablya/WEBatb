@@ -2,6 +2,7 @@ wwwroot\c0addb4e-d11a-4fa3-bf81-c9c33da30a68.jpg
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\04e4e95d-eb99-4850-9293-cf63ddbc0ac6.jpg
+wwwroot\images\0af0409b-7304-4e49-bbcf-63c2fdbbbfd6.jpg
 wwwroot\images\19708488-b06b-41eb-8313-a1e4b4973674.jpg
 wwwroot\images\1e5d4034-ea11-4607-9de0-f2ae7556198b.jpg
 wwwroot\images\21aedbf6-977e-43a4-b914-66a51c4c683a.jpg
@@ -9,6 +10,7 @@ wwwroot\images\2daaf532-9091-41b7-bda2-45a71748ce96.jpg
 wwwroot\images\479cc95b-c12e-41f5-ba75-c6a27f0eefa7.jpg
 wwwroot\images\54b76bfa-8f50-4b7f-8643-545ae19f778a.jpg
 wwwroot\images\5ab65555-d0c8-4f46-b8c8-a6f01f98580d.jpg
+wwwroot\images\63f50fa4-eeab-4b06-ad3c-368db92bb5d8.jpg
 wwwroot\images\6c3167f4-59b6-4a17-8028-7d5f1afbd266.jpg
 wwwroot\images\6fb49897-a2fb-4772-92e7-282b33e97861.jpg
 wwwroot\images\72c483ba-1a18-4a2e-941c-49701e24b0fb.jpg

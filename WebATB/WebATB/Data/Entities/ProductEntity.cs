@@ -4,20 +4,16 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace WebATB.Data.Entities;
 
 //створення таблиці
-[Table("tblCategories")]
-public class CategoryEntity
+[Table("tblProducts")]
+public class ProductEntity
 {
     //унікальний індентифікатор (ключ)
     [Key]
-    public int Id { get; set; } //створення властивості
+    public int ProductId { get; set; } //створення властивості
     [Required, StringLength(250)] //розмір символів та встановлення атрибута
-    public string Name { get; set; } = null!;
+    public string ProductName { get; set; } = null!;
     [Required, StringLength(250)]
-    public string Slug { get; set; } = null!;
-    [StringLength(255)]
     public string? Image { get; set; } = string.Empty;
 
-
-    public int ? ProductId { get; set; }
-    public ProductEntity ProductEntity { get; set; }
+    public ICollection<CategoryEntity> Products { get; set; }
 }
