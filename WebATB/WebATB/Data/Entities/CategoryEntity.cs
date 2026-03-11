@@ -18,4 +18,15 @@ public class CategoryEntity
     public string? Image { get; set; } = string.Empty;
 
     public virtual ICollection<ProductEntity> Products { get; set; } = null!;
+
+    public CategoryEntity()
+    {
+        Products = new List<ProductEntity>();
+    }
+    public CategoryEntity(string first, string last, IEnumerable<string> products)
+    {
+        Id = Id;
+        Name = Name;
+        Products = (ICollection<ProductEntity>)products.ToList();
+    }
 }
