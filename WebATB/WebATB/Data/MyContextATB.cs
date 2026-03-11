@@ -15,4 +15,5 @@ public class MyContextATB : DbContext
     }
     //створення категорій
     public DbSet<CategoryEntity> Categories { get; set; }
+    public DbSet<ProductEntity> Products { get; set; }
 }
