@@ -6,7 +6,7 @@ public class ProductCreateViewModel
 {
     [Display(Name = "Категорія")]
     [Required(ErrorMessage = "Вкажіть категорію")]
-    public string CategoryId { get; set; } = null!;
+    public int CategoryId { get; set; }
     [Display(Name = "Назва")]
     [Required(ErrorMessage = "Вкажіть назву")]
     public string Name { get; set; } = String.Empty;
@@ -16,6 +16,9 @@ public class ProductCreateViewModel
     [Display(Name = "Ціна")]
     [Required(ErrorMessage = "Вкажіть ціну")]
     public string Price { get; set; } = String.Empty;
+    [Display(Name = "Знижка")]
+    [Required(ErrorMessage = "Вкажіть знижку")]
+    public string Sale { get; set; } = String.Empty;
     [Display(Name = "Опис")]
     [Required(ErrorMessage = "Вкажіть опис")]
     public string Description { get; set; } = String.Empty;
