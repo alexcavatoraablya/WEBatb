@@ -11,6 +11,8 @@
             <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="product-card">
                     <div class="product-image-wrapper">
+                        <a button class="edit-btn" asp-action="Edit" asp-route-id="@p.Id">📝</a>
+                        <a button class="delete-btn" asp-action="Delete" asp-route-id="@p.Id">🗑️</a>
                         <button class="heart-btn">♡</button>
                         <div class="discount-badge">@p.Sale</div>
                         <img src="/images/@p.FileImage" alt="Мандарини" class="product-image">
