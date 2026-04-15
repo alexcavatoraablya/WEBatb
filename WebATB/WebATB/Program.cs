@@ -1,7 +1,9 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using WebATB.Data;
 using WebATB.Data.Entities;
+using WebATB.Data.Entities.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,19 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<MyContextATB>(opt =>
     opt.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//Додаємо налаштування для UserManager і RoleManager і SigninManager - займається cookies
+builder.Services.AddIdentity<UserEntity, RoleEntity>(options =>
+{
+    options.Password.RequireDigit = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 6;
+    options.Password.RequiredUniqueChars = 1;
+})
+    .AddEntityFrameworkStores<MyContextATB>()
+    .AddDefaultTokenProviders();
 
 var app = builder.Build();
 
@@ -34,8 +49,10 @@ app.MapControllerRoute(
 //нам потрібно отримати MyContextATB - клас який є налаштований
 using var scope = app.Services.CreateScope();
 var myDbContext = scope.ServiceProvider.GetService<MyContextATB>(); //отримав context DataBase
+var roleManager = scope.ServiceProvider.GetService<RoleManager<RoleEntity>>();
+var userManager = scope.ServiceProvider.GetService<UserManager<UserEntity>>();
 
-if(myDbContext != null) //якщо ми отримали контекст і він не пустий
+if (myDbContext != null) //якщо ми отримали контекст і він не пустий
 {
     if (!myDbContext.Categories.Any()) //якщо в БД відсутні записи
     {
@@ -64,6 +81,31 @@ if(myDbContext != null) //якщо ми отримали контекст і він не пустий
 
         myDbContext.Categories.AddRange(items);
         myDbContext.SaveChanges();
+    }
+
+    if (!roleManager.Roles.Any())
+    {
+        RoleEntity [] roles = { 
+            new () { Name = "Admin" },
+            new () { Name = "Manager" },
+            new () { Name = "User" }
+        };
+        foreach(var  role in roles)
+            await roleManager.CreateAsync(role);
+    }
+    if(!userManager.Users.Any())
+    {
+        var admin = new UserEntity
+        {
+            Email = "admin@gmail.com",
+            UserName = "admin@gmail.com",
+            FirstName = "Іван",
+            LastName = "Мельник",
+            Image = "default.jpg"
+        };
+        var result = await userManager.CreateAsync(admin, "123456");
+        if (result.Succeeded)
+            await userManager.AddToRoleAsync(admin, "Admin");
     }
 }
 

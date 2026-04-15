@@ -1,9 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using WebATB.Data.Entities;
+using WebATB.Data.Entities.Identity;
 
 namespace WebATB.Data;
 
-public class MyContextATB : DbContext
+public class MyContextATB : IdentityDbContext<UserEntity, RoleEntity, int>
 {
     //Шаблони для створення екземплярів DbContext
     //із впровадженням залежностей або без нього
@@ -16,4 +18,21 @@ public class MyContextATB : DbContext
     //створення категорій
     public DbSet<CategoryEntity> Categories { get; set; }
     public DbSet<ProductEntity> Products { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        base.OnModelCreating(modelBuilder);
+
+        // identity 
+        modelBuilder.Entity<UserRoleEntity>()
+            .HasOne(ur => ur.User)
+            .WithMany(u => u.UserRoles)
+            .HasForeignKey(ur => ur.UserId);
+
+        modelBuilder.Entity<UserRoleEntity>()
+            .HasOne(ur => ur.Role)
+            .WithMany(r => r.UserRoles)
+            .HasForeignKey(ur => ur.RoleId);
+
+    }
 }
