@@ -1,0 +1,55 @@
+﻿@model IEnumerable<WebATB.Data.Entities.RegisterEntity>
+
+<h1 class="text-center">Реєстрація</h1>
+
+<a asp-action="Create" class="btn btn-success">Зареєструватися</a>
+
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Фото</th>
+            <th scope="col">ПІБ</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var register in Model)
+        {
+            <tr>
+                <th scope="row">1</th>
+                <td>
+                    @if (register.Image.StartsWith("http"))
+                    {
+                        <img src="@register.Image"
+                        alt="photocategories"
+                        style="width: 100px; height:auto" />
+                    }
+                    else
+                    {
+                        <img src="/images/@register.Image"
+                             alt="photocategories"
+                             style="width: 100px; height:auto" />
+                    }
+                </td>
+                <td>@register.Name</td>
+                <td>
+                    @* Під'єднуємо modal та button щоб відправлявся запит на сервер *@
+                    <button type="button"
+                        class="btn btn-primary"
+                        onclick="document.getElementById('deleteCategoryId').value=this.dataset.id"
+                            data-id="@register.Id"
+                        data-bs-toggle="modal"
+                        data-bs-target="#deleteCategoryModal">
+                        Видалити
+                    </button>
+                    <a asp-action="Edit" class="btn btn-secondary"
+                       asp-route-id="@register.Id">
+                        Редагувати
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@await Html.PartialAsync("DeleteModal")
