@@ -1,44 +1,5 @@
-wwwroot\c0addb4e-d11a-4fa3-bf81-c9c33da30a68.jpg
-wwwroot\css\products.css
-wwwroot\css\site.css
 wwwroot\favicon.ico
-wwwroot\images\04e4e95d-eb99-4850-9293-cf63ddbc0ac6.jpg
-wwwroot\images\0af0409b-7304-4e49-bbcf-63c2fdbbbfd6.jpg
-wwwroot\images\19708488-b06b-41eb-8313-a1e4b4973674.jpg
-wwwroot\images\1e5d4034-ea11-4607-9de0-f2ae7556198b.jpg
-wwwroot\images\20ea12b0-5c8a-41a9-9059-83e16d0a149e.jpg
-wwwroot\images\21aedbf6-977e-43a4-b914-66a51c4c683a.jpg
-wwwroot\images\2daaf532-9091-41b7-bda2-45a71748ce96.jpg
-wwwroot\images\479cc95b-c12e-41f5-ba75-c6a27f0eefa7.jpg
-wwwroot\images\54b76bfa-8f50-4b7f-8643-545ae19f778a.jpg
-wwwroot\images\5ab65555-d0c8-4f46-b8c8-a6f01f98580d.jpg
-wwwroot\images\63f50fa4-eeab-4b06-ad3c-368db92bb5d8.jpg
-wwwroot\images\6b4e5bb6-4883-4507-bb84-2779e2aedb40.jpg
-wwwroot\images\6c3167f4-59b6-4a17-8028-7d5f1afbd266.jpg
-wwwroot\images\6fb49897-a2fb-4772-92e7-282b33e97861.jpg
-wwwroot\images\72c483ba-1a18-4a2e-941c-49701e24b0fb.jpg
-wwwroot\images\7305162a-c622-4d1d-9b62-0ee9b2d11f1b.jpg
-wwwroot\images\7beb5c6b-291d-4cdf-babb-8ed809af82ec.jpg
-wwwroot\images\7bff6866-260e-4dfe-8402-c9f1c411e41c.jpg
-wwwroot\images\7c50277d-de52-4383-8dc6-d55e725f7337.jpg
-wwwroot\images\83e61da1-eb94-4312-ac2c-be09e27264b8.jpg
-wwwroot\images\845b215f-fb6c-487d-b062-2a985379ce40.jpg
-wwwroot\images\8824a832-506c-440c-8a3f-cc8f14b30dba.jpg
-wwwroot\images\956649b9-aa1b-4883-8023-5975e3e07714.jpg
-wwwroot\images\97f1f01c-1d7a-430b-a9fa-ff7033931579.jpg
-wwwroot\images\98b3b81c-f7da-4e48-b71b-ae58ed2c9a4f.jpg
-wwwroot\images\a31d8ae4-ffe8-430c-9405-d9647549e284.jpg
-wwwroot\images\b932f7db-b784-4e86-be0f-92b86e24d548.jpg
-wwwroot\images\bd7dc035-010e-46f7-84c0-07b66a5e40df.jpg
-wwwroot\images\bde45da4-4252-4419-8910-0936da306054.jpg
 wwwroot\images\blank-pfp.png
-wwwroot\images\c27dd206-091c-4e98-a9d6-7633ab33f901.jpg
-wwwroot\images\d16368bd-47dd-4564-91a0-fa5d6d63adda.jpg
-wwwroot\images\d8ab5788-32db-4390-af7b-feb86b8a01c4.jpg
-wwwroot\images\dbcf363f-c397-487c-ac93-6fe4f35de154.jpg
-wwwroot\images\ec528d78-ce6e-43bd-9c3b-0439b6d891cb.jpg
-wwwroot\images\f5044392-62fa-478f-8871-cbd114e63a63.jpg
-wwwroot\images\f80b6f00-5a3d-4527-82b8-5724bb9ad415.jpg
 wwwroot\images\long.jpg
 wwwroot\images\opossum.jpg
 wwwroot\js\site.js
@@ -98,70 +59,109 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
-wwwroot\lib\jquery\dist\jquery.slim.js
-wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\css\site.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\favicon.ico
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\js\site.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation\dist\additional-methods.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation\LICENSE.md
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery\dist\jquery.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery\dist\jquery.min.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery\dist\jquery.min.map
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery\dist\jquery.slim.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery\dist\jquery.slim.min.js
-C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\css\site.css
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\c0addb4e-d11a-4fa3-bf81-c9c33da30a68.jpg
+wwwroot\images\21aedbf6-977e-43a4-b914-66a51c4c683a.jpg
+wwwroot\images\5ab65555-d0c8-4f46-b8c8-a6f01f98580d.jpg
+wwwroot\images\b932f7db-b784-4e86-be0f-92b86e24d548.jpg
+wwwroot\images\ec528d78-ce6e-43bd-9c3b-0439b6d891cb.jpg
+wwwroot\images\2daaf532-9091-41b7-bda2-45a71748ce96.jpg
+wwwroot\images\479cc95b-c12e-41f5-ba75-c6a27f0eefa7.jpg
+wwwroot\images\19708488-b06b-41eb-8313-a1e4b4973674.jpg
+wwwroot\images\d8ab5788-32db-4390-af7b-feb86b8a01c4.jpg
+wwwroot\images\f80b6f00-5a3d-4527-82b8-5724bb9ad415.jpg
+wwwroot\images\7beb5c6b-291d-4cdf-babb-8ed809af82ec.jpg
+wwwroot\images\845b215f-fb6c-487d-b062-2a985379ce40.jpg
+wwwroot\images\83e61da1-eb94-4312-ac2c-be09e27264b8.jpg
+wwwroot\images\956649b9-aa1b-4883-8023-5975e3e07714.jpg
+wwwroot\images\6c3167f4-59b6-4a17-8028-7d5f1afbd266.jpg
+wwwroot\images\7305162a-c622-4d1d-9b62-0ee9b2d11f1b.jpg
+wwwroot\images\6fb49897-a2fb-4772-92e7-282b33e97861.jpg
+wwwroot\images\98b3b81c-f7da-4e48-b71b-ae58ed2c9a4f.jpg
+wwwroot\images\bd7dc035-010e-46f7-84c0-07b66a5e40df.jpg
+wwwroot\images\1e5d4034-ea11-4607-9de0-f2ae7556198b.jpg
+wwwroot\images\a31d8ae4-ffe8-430c-9405-d9647549e284.jpg
+wwwroot\images\04e4e95d-eb99-4850-9293-cf63ddbc0ac6.jpg
+wwwroot\images\54b76bfa-8f50-4b7f-8643-545ae19f778a.jpg
+wwwroot\images\dbcf363f-c397-487c-ac93-6fe4f35de154.jpg
+wwwroot\images\7bff6866-260e-4dfe-8402-c9f1c411e41c.jpg
+wwwroot\images\f5044392-62fa-478f-8871-cbd114e63a63.jpg
+wwwroot\images\72c483ba-1a18-4a2e-941c-49701e24b0fb.jpg
+wwwroot\images\63f50fa4-eeab-4b06-ad3c-368db92bb5d8.jpg
+wwwroot\images\0af0409b-7304-4e49-bbcf-63c2fdbbbfd6.jpg
+wwwroot\images\d16368bd-47dd-4564-91a0-fa5d6d63adda.jpg
+wwwroot\images\c27dd206-091c-4e98-a9d6-7633ab33f901.jpg
+wwwroot\images\6b4e5bb6-4883-4507-bb84-2779e2aedb40.jpg
+wwwroot\images\bde45da4-4252-4419-8910-0936da306054.jpg
+wwwroot\css\products.css
+wwwroot\images\7c50277d-de52-4383-8dc6-d55e725f7337.jpg
+wwwroot\images\97f1f01c-1d7a-430b-a9fa-ff7033931579.jpg
+wwwroot\images\20ea12b0-5c8a-41a9-9059-83e16d0a149e.jpg
+wwwroot\images\8824a832-506c-440c-8a3f-cc8f14b30dba.jpg
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery\dist\jquery.slim.min.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery\dist\jquery.slim.min.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery\dist\jquery.slim.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery\dist\jquery.min.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation\dist\additional-methods.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\js\site.js
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\css\site.css
 C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\css\products.css
+C:\Users\CODER\Desktop\c#\1 lesson Begin ASP.NET\WebATB\WebATB\wwwroot\favicon.ico
